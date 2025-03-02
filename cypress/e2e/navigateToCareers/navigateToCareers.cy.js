@@ -1,4 +1,4 @@
-import data from '/Users/kate/Desktop/green project/cypress/fixtures/data.json'
+import data from '../../fixtures/data.json'
 import careersPage from '../../fixtures/pageObject/careersPage';
 import homePage from '../../fixtures/pageObject/homePage';
 
