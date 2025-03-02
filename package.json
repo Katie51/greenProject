@@ -1,0 +1,19 @@
+{
+  "name": "greenproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:navigateToCareers": "cypress run --spec 'cypress/e2e/navigateToCareers/navigateToCareers.cy.js'",
+    "test:solutions": "cypress run --spec 'cypress/e2e/navigateToSolutions/solutions.cy.js'",
+    "cy:run": "cypress run --browser chrome",
+    "cy:parallel": "cypress-parallel -s 'cypress/e2e/**/*.cy.js' -t 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.1.0",
+    "cypress-parallel": "^0.14.0"
+  }
+}
